@@ -1,0 +1,72 @@
+// Place all the styles related to the cards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Header
+nav {
+    text-align: center;
+    background-color: #343951;
+    color:white;
+    font-size: 20px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.access {
+  margin-top: 15px;
+}
+
+.image {
+    img {
+      margin-top: 1rem;
+      width: 30px;
+    }
+  }
+
+
+
+// Footer Styles
+
+footer {
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #5EA5EE;
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+// Button Styles
+    .link-btn, .create-btn {
+      background-color: #5EA5EE;
+      color: white;
+      
+      text-decoration: none;
+    }
+    .create-btn {
+      padding: 2.5px 10px;
+    }
+    .link-btn {
+      padding: 8px 12px;
+    }
+
+// Flashes
+
+.flash {
+  background-color: green;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  color: white;
+  }
+  .notice {
+    background-color: green;
+  }
+
+
+  
+  
+
+

@@ -1,0 +1,8 @@
+<div>
+    <%= form_with(model: card, local: true)  do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name, autofocus: true %>
+
+        <%= f.submit class:"create-btn" %>
+    <% end %>
+</div>

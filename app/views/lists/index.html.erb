@@ -1,0 +1,23 @@
+<h2>The Project lists</h2>
+
+<table>
+    <tr>
+        <% @listing.each do |list| %>
+              <th><%= list["name"] %></th>
+                <% list["cards"].each do |card| %> 
+                    <% if !card["closed"] %> 
+                    <tr><td><%= card["name"] %></td></tr> 
+                    <% end %>
+            <% end %>
+        <% end %>
+    </tr>
+</table>
+
+
+<div class="access">
+    <section class="">
+    <%= link_to "+Add Card", new_card_path, class: "link-btn" %>
+    </section>
+</div>
+
+
